@@ -1,6 +1,6 @@
 import csv
 
-with open('data/000101027265_0415_20150514164017.csv', newline='') as csvfile:
+with open('data/convertcsv.csv', newline='') as csvfile:
   with open('data/metrozoho.csv', 'w+') as csvout:
     writer = csv.writer(csvout, lineterminator='\n')
     cs = csv.reader(csvfile, delimiter=',', quotechar='"')
