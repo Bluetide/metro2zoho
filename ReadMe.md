@@ -12,6 +12,10 @@ Download the Text Bank statement from MetroBank, modify it so it can be uploaded
 asume que ya la carpeta metro2zoho fue descargada
 - En ZohoBooks identificar el último Estado de Cuenta reconciliado en la cuenta corriente de Metrobank.
 - Descargar el Estado de Cuenta del mes correspondiente en formato CSV.
-- cambiar el nombre del archivo a ```convertcsv.csv```
-- abrir el progama *Terminal*
+- cambiar el nombre del archivo a `convertcsv.csv`
+- abrir el progama **Terminal**
 - utilizar el comando **change directory** `cd` y  **list** `ls`  para dirigirse a la carpeta metro2zoho.
+- copiar `convertcsv.csv` a `/metro2zoho/data`
+- ir a Zoho Books e importar el archivo `metro2zoho.csv` que se encuentra dentro de la carpeta `/metro2zoho/data`
+- categorizar las transacciones en Zoho Books.
+- reconciliar el estado de cuenta en Zoho Books.
